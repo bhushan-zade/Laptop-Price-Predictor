@@ -1,6 +1,6 @@
 ﻿numpy
 pandas
 regex
-scikit-learn==1.2.0
+scikit-learn
 streamlit
 xgboost==1.7.1
