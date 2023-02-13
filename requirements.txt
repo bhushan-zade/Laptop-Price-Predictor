@@ -3,4 +3,4 @@ pandas
 regex
 scikit-learn==1.2.0
 streamlit
-xgboost
+xgboost==0.90
