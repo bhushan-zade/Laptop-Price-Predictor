@@ -126,13 +126,14 @@ if st.button('Predict Price'):
    
     try:
         ppi = ((X_res**2) + (Y_res**2))**0.5/screen_size
+        query = pd.DataFrame(np.array([[company, type, ram, weight, touchscreen, ips, ppi , cpu, hdd, ssd, gpu, os]]), columns=['Company', 'TypeName', 'Ram', 'Weight', 'Touchscreen', 'Ips', 'ppi', 'Cpu brand', 'HDD', 'SSD', 'Gpu brand', 'os'])
+
+        st.title("The predicted price of this configuration is " + str(int(np.exp(pipe.predict(query)[0]))))
+
         
     except (ZeroDivisionError, ValueError):
         pass
     
       
       
-    query = pd.DataFrame(np.array([[company, type, ram, weight, touchscreen, ips, ppi , cpu, hdd, ssd, gpu, os]]), columns=['Company', 'TypeName', 'Ram', 'Weight', 'Touchscreen', 'Ips', 'ppi', 'Cpu brand', 'HDD', 'SSD', 'Gpu brand', 'os'])
-
-    st.title("The predicted price of this configuration is " + str(int(np.exp(pipe.predict(query)[0]))))
-
+    
