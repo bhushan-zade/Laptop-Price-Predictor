@@ -12,12 +12,20 @@ df = pickle.load(open('df.pkl','rb'))
 
 st.title("Laptop Price Predictor 💻")
 
-# brand
-company = st.selectbox('Brand',df['Company'].unique())
 
-# type of laptop
-type = st.selectbox('Type',df['TypeName'].unique())
+# making 2 cols left_column and right_column
+left_column, right_column = st.columns(2)
+# 1st row
+with left_column:
+    # brand input
+    company = st.selectbox("Brand", df["Company"].unique())
 
+with right_column:
+    # type of laptop
+    type = st.selectbox('Type',df['TypeName'].unique())
+
+    
+    
 # Ram
 ram = st.selectbox('RAM(in GB)',[2,4,6,8,12,16,24,32,64])
 
