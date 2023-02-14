@@ -52,17 +52,13 @@ Web Development & Deployment: Python, Streamlit framework has been used for web 
 
 #
 
-**`Visit The Web App:`** https://bhushan-zade-sms-spam-classifier-app-4pv856.streamlit.app/
+**`Visit The Web App:`** https://bhushan-zade-laptop-price-predictor-app-108mnl.streamlit.app/
 
 <img align="" alt="coding"  src= "https://user-images.githubusercontent.com/118050962/218831653-72dd7363-b236-42f5-b685-e8f1d96b83bd.PNG">
 
 # Visit For Details:
 
 
-Data pre-processing & Model Applied: https://www.kaggle.com/code/bhu1111/sms-spam-detection
+Data pre-processing & Model Applied: https://www.kaggle.com/code/bhu1111/laptop-price-predictor
 
-Model Streamlit Python-APP(app.py) File: https://github.com/bhushan-zade/Neural-Style-Transfer/blob/main/app.py
-
-Model Python-APP(app.py) File: https://github.com/bhushan-zade/SMS-SPAM-CLASSIFIER/blob/main/app.py
-
-
+Model Streamlit Python-APP(app.py) File: https://github.com/bhushan-zade/Laptop-Price-Predictor/blob/main/app.py
