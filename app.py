@@ -97,9 +97,6 @@ with right_column:
     #os
     os = st.selectbox('OS',df['os'].unique())
 
-def ppi():
-    ppi = ((X_res**2) + (Y_res**2))**0.5/screen_size
-    return ppi
 
 # Predict Button=                                                  Last row
 
@@ -128,11 +125,10 @@ if st.button('Predict Price'):
     
    
     try:
-        ppi = ppi()
-    except ZeroDivisionError:
+        ppi = ((X_res**2) + (Y_res**2))**0.5/screen_size
+    except exceptions:
         pass
-    except ValueError as v:
-        pass
+    
       
       
     query = pd.DataFrame(np.array([[company, type, ram, weight, touchscreen, ips, ppi , cpu, hdd, ssd, gpu, os]]), columns=['Company', 'TypeName', 'Ram', 'Weight', 'Touchscreen', 'Ips', 'ppi', 'Cpu brand', 'HDD', 'SSD', 'Gpu brand', 'os'])
