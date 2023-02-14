@@ -56,7 +56,10 @@ with middle_column:
     
 with right_column:
     # screen size
-    screen_size = st.number_input('Screen Size')
+    if screen_size is not None:
+        screen_size = st.number_input('Screen Size')
+    else:
+        st.markdown("### Please Upload Both Images")
 
 
 
