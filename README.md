@@ -1,7 +1,7 @@
 <img src=https://img.shields.io/badge/build%20with-python-yellow><img src="https://img.shields.io/badge/-streamlit-orange"> <img src="https://img.shields.io/badge/deployed%20in-Streamlit Cloudu-blue"> <img src="https://img.shields.io/badge/domain-Machine%20Learning-orange%20.svg" >
 # Laptop Price Predictor
 
-• Web-based application that predicts the price of the laptop according to the configuration input by user.
+• Web-based application that **Predicts the Price of the Laptop** according to the configuration input by user.
 
 Laptop Configuration Input by User: 
 
