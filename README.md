@@ -48,7 +48,9 @@ There are several steps involved in the process machine learning
 
 2. Mean Absolute Error
 
-Web Development & Deployment: Python, Streamlit framework has been used for web development and the site was hosted in Streamlit Cloud as well.
+**`Web Development & Deployment:`** 
+
+Python, Streamlit framework has been used for web development and the site was hosted in Streamlit Cloud as well.
 
 #
 
