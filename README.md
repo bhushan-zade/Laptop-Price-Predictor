@@ -58,6 +58,7 @@ Web Development & Deployment: Python, Streamlit framework has been used for web 
 
 # Visit For Details:
 
+Dataset: https://github.com/bhushan-zade/Laptop-Price-Predictor/blob/main/laptop_data.csv
 
 Data pre-processing & Model Applied: https://www.kaggle.com/code/bhu1111/laptop-price-predictor
 
