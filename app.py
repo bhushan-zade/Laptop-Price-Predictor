@@ -58,11 +58,6 @@ with right_column:
     # screen size
     screen_size = st.number_input('Screen Size')
     
-    #if screen_size is not None:
-    #else:
-        #st.markdown("### Please Upload Both Images")
-
-
 
 
 # making 3 cols left_column and right_column=                      4th row
@@ -113,10 +108,10 @@ if st.button('Predict Price'):
     else:
         ips = 0
         
-    if screen_size == 0.0:
-        st.markdown("### Please enter screen size")
-    else:
-        pass
+    #if screen_size == 0.0:
+    #    st.markdown("### Please enter screen size")
+   # else:
+      #  pass
       
     
 
@@ -132,7 +127,7 @@ if st.button('Predict Price'):
 
         
     except (ZeroDivisionError, ValueError):
-        pass
+        st.markdown("### Please enter screen size")
     
       
       
