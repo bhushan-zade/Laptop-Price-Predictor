@@ -60,6 +60,6 @@ Web Development & Deployment: Python, Streamlit framework has been used for web 
 
 Dataset: https://github.com/bhushan-zade/Laptop-Price-Predictor/blob/main/laptop_data.csv
 
-Data pre-processing & Model Applied: https://www.kaggle.com/code/bhu1111/laptop-price-predictor
+Data Pre-Processing & Model Applied: https://www.kaggle.com/code/bhu1111/laptop-price-predictor
 
 Model Streamlit Python-APP(app.py) File: https://github.com/bhushan-zade/Laptop-Price-Predictor/blob/main/app.py
