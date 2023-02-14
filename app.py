@@ -127,7 +127,7 @@ if st.button('Predict Price'):
     try:
         ppi = ((X_res**2) + (Y_res**2))**0.5/screen_size
         
-    except ZeroDivisionError:
+    except (ZeroDivisionError, ValueError):
         pass
     
       
