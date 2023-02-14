@@ -18,7 +18,36 @@ Laptop Configuration Input by User:
 • 11.SSD Space   
 • 12.GPU   
 • 13.Operating System
-**`Machine Leaning Problem`**
+
+
+# **`Machine Leaning Problem`**
+
+It is a Regresion problem, for a given columns we need to predict the price of laptop.
+
+There are several steps involved in the process machine learning
+
+• Data Gathering
+
+• Feature Engineering
+
+• Data Preprocessing
+
+• Exploratory Data Analysis
+
+• Model Building
+
+• Model Optimization
+
+• Model Selection
+
+• Model Deployment
+
+# Performance Metrics used for this Project
+
+1. R2 Score
+
+2. Mean Absolute Error
+
 Spamming is the use of messaging systems to send multiple unsolicited messages (spam) to large numbers of recipients for the purpose of commercial advertising, for the purpose of non-commercial proselytizing, for any prohibited purpose (especially the fraudulent purpose of phishing), or simply repeatedly sending the same message to the same user. While the most widely recognized form of spam is email spam, the term is applied to similar abuses in other media: instant messaging spam, Usenet newsgroup spam, Web search engine spam, spam in blogs, wiki spam, online classified ads spam, mobile phone messaging spam, Internet forum spam, junk fax transmissions, social spam, spam mobile apps, television advertising and file sharing spam. (source: Wikipedia)
 
 <img align="" alt="coding" width="600" src= "https://user-images.githubusercontent.com/118050962/214578152-107efff5-5e2b-40f1-8871-8dd44464f161.jpg">
