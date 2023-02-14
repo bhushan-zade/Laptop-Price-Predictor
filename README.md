@@ -56,9 +56,10 @@ Web Development & Deployment: Python, Streamlit framework has been used for web 
 
 # Visit For Details:
 
-Data Gathered From: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
 Data pre-processing & Model Applied: https://www.kaggle.com/code/bhu1111/sms-spam-detection
+
+Model Streamlit Python-APP(app.py) File: https://github.com/bhushan-zade/Neural-Style-Transfer/blob/main/app.py
 
 Model Python-APP(app.py) File: https://github.com/bhushan-zade/SMS-SPAM-CLASSIFIER/blob/main/app.py
 
