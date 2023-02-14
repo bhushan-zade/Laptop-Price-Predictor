@@ -127,7 +127,7 @@ if st.button('Predict Price'):
 
         
     except (ZeroDivisionError, ValueError):
-        st.markdown("### Please enter screen size")
+        pass
     
       
       
