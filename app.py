@@ -97,8 +97,9 @@ with right_column:
     #os
     os = st.selectbox('OS',df['os'].unique())
 
-
-
+def ppi():
+    ppi = ((X_res**2) + (Y_res**2))**0.5/screen_size
+    return ppi
 
 # Predict Button=                                                  Last row
 
@@ -119,11 +120,15 @@ if st.button('Predict Price'):
         st.markdown("### Please enter screen size")
     else:
         pass
+      
+    
 
     X_res = int(resolution.split('x')[0])
     Y_res = int(resolution.split('x')[1])
+    
+   
     try:
-        ppi = ((X_res**2) + (Y_res**2))**0.5/screen_size
+        ppi = ppi()
     except ZeroDivisionError:
         pass
     except ValueError as v:
