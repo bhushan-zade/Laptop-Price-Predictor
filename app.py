@@ -13,7 +13,9 @@ df = pickle.load(open('df.pkl','rb'))
 st.title("Laptop Price Predictor 💻")
 
 
-# making 2 cols left_column and right_column
+
+
+# making 2 cols left_column and right_column=                       1st row
 left_column, right_column = st.columns(2)
 # 1st row
 with left_column:
@@ -24,36 +26,85 @@ with right_column:
     # type of laptop
     type = st.selectbox('Type',df['TypeName'].unique())
 
-    
-    
-# Ram
-ram = st.selectbox('RAM(in GB)',[2,4,6,8,12,16,24,32,64])
+   
+  
+  
+# making 2 cols left_column and right_column=                       2nd row
+left_column, right_column = st.columns(2)
+# 2nd row
+with left_column:
+    # Ram
+    ram = st.selectbox('RAM(in GB)',[2,4,6,8,12,16,24,32,64])
 
-# weight
-weight = st.number_input('Weight of the Laptop')
+with right_column:    
+    # weight
+    weight = st.number_input('Weight of the Laptop')
 
-# Touchscreen
-touchscreen = st.selectbox('Touchscreen',['No','Yes'])
 
-# IPS
-ips = st.selectbox('IPS',['No','Yes'])
 
-# screen size
-screen_size = st.number_input('Screen Size')
 
-# resolution
-resolution = st.selectbox('Screen Resolution',['1920x1080','1366x768','1600x900','3840x2160','3200x1800','2880x1800','2560x1600','2560x1440','2304x1440'])
+ 
+# making 2 cols left_column and right_column=                      3rd row
+left_column, right_column = st.columns(2)
+with left_column:
+    # Touchscreen
+    touchscreen = st.selectbox('Touchscreen',['No','Yes'])
 
-#cpu
-cpu = st.selectbox('CPU',df['Cpu brand'].unique())
+with right_column:
+    # IPS
+    ips = st.selectbox('IPS',['No','Yes'])
 
-hdd = st.selectbox('HDD(in GB)',[0,128,256,512,1024,2048])
 
-ssd = st.selectbox('SSD(in GB)',[0,8,128,256,512,1024])
 
-gpu = st.selectbox('GPU',df['Gpu brand'].unique())
 
-os = st.selectbox('OS',df['os'].unique())
+
+# making 2 cols left_column and right_column=                      4th row
+left_column, right_column = st.columns(2)
+with left_column:
+    # screen size
+    screen_size = st.number_input('Screen Size')
+
+with right_column:
+    # resolution
+    resolution = st.selectbox('Screen Resolution',['1920x1080','1366x768','1600x900','3840x2160','3200x1800','2880x1800','2560x1600','2560x1440','2304x1440'])
+
+
+
+
+
+# making 2 cols left_column and right_column=                      5th row
+left_column, right_column = st.columns(2)
+with left_column:
+    #cpu
+    cpu = st.selectbox('CPU',df['Cpu brand'].unique())
+
+with right_column:
+    #hdd
+    hdd = st.selectbox('HDD(in GB)',[0,128,256,512,1024,2048])
+
+
+
+
+
+
+# making 3 cols left_column, middle_column and right_column=       6th row
+left_column, right_column = st.columns(2)
+with left_column:
+    #ssd
+    ssd = st.selectbox('SSD(in GB)',[0,8,128,256,512,1024])
+
+with middle_column:
+    #gpu
+    gpu = st.selectbox('GPU',df['Gpu brand'].unique())
+
+with right_column:
+    #os
+    os = st.selectbox('OS',df['os'].unique())
+
+
+
+
+# Predict Button=                                                  Last row
 
 if st.button('Predict Price'):
     # query
