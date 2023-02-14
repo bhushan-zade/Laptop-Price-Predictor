@@ -107,14 +107,8 @@ if st.button('Predict Price'):
         ips = 1
     else:
         ips = 0
-        
-    #if screen_size == 0.0:
-    #    st.markdown("### Please enter screen size")
-   # else:
-      #  pass
-      
+          
     
-
     X_res = int(resolution.split('x')[0])
     Y_res = int(resolution.split('x')[1])
     
@@ -127,7 +121,7 @@ if st.button('Predict Price'):
 
         
     except (ZeroDivisionError, ValueError):
-        pass
+        st.markdown("### Please enter screen size")
     
       
       
