@@ -1,5 +1,5 @@
 ﻿numpy
 pandas
 regex
-sklearn
+scikit-learn
 streamlit
