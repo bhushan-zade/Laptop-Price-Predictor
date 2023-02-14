@@ -56,7 +56,7 @@ Web Development & Deployment: Python, Streamlit framework has been used for web 
 
 <img align="" alt="coding"  src= "https://user-images.githubusercontent.com/118050962/218831653-72dd7363-b236-42f5-b685-e8f1d96b83bd.PNG">
 
-# Visit For Details:
+# **`Visit For Details:`**
 
 **`Dataset:`** https://github.com/bhushan-zade/Laptop-Price-Predictor/blob/main/laptop_data.csv
 
