@@ -88,7 +88,7 @@ with right_column:
 
 
 # making 3 cols left_column, middle_column and right_column=       6th row
-left_column, right_column = st.columns(3)
+left_column, middle_column,  right_column = st.columns(3)
 with left_column:
     #ssd
     ssd = st.selectbox('SSD(in GB)',[0,8,128,256,512,1024])
