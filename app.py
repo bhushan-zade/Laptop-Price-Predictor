@@ -3,11 +3,14 @@ import pickle
 import numpy as np
 import pandas as pd
 
+st.set_page_config(page_title="Laptop Price Predictor", page_icon="💻",
+                   layout="wide")
+
 # import the model
 pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 
-st.title("Laptop Predictor")
+st.title("Laptop Price Predictor 💻")
 
 # brand
 company = st.selectbox('Brand',df['Company'].unique())
