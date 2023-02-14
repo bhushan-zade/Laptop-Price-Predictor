@@ -3,7 +3,21 @@
 
 • Web-based application that predicts the price of the laptop according to the configuration input by user.
 
-• User Inputs = 1.Brand of Laptop   2.Type  3.RAM   4.Weight of Laptop   5.Touchscreen   6.IPS   7.Screen Size   8. Screen Resolution   9.CPU   10.HDD Space   11.SSD Space   12.GPU   13.Operating System
+Laptop Configuration Input by User: 
+
+• 1.Brand of Laptop   
+• 2.Type  
+• 3.RAM   
+• 4.Weight of Laptop   
+• 5.Touchscreen   
+• 6.IPS   
+• 7.Screen Size 
+• 8. Screen Resolution   
+• 9.CPU   
+• 10.HDD Space   
+• 11.SSD Space   
+• 12.GPU   
+• 13.Operating System
 
 Spamming is the use of messaging systems to send multiple unsolicited messages (spam) to large numbers of recipients for the purpose of commercial advertising, for the purpose of non-commercial proselytizing, for any prohibited purpose (especially the fraudulent purpose of phishing), or simply repeatedly sending the same message to the same user. While the most widely recognized form of spam is email spam, the term is applied to similar abuses in other media: instant messaging spam, Usenet newsgroup spam, Web search engine spam, spam in blogs, wiki spam, online classified ads spam, mobile phone messaging spam, Internet forum spam, junk fax transmissions, social spam, spam mobile apps, television advertising and file sharing spam. (source: Wikipedia)
 
