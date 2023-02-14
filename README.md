@@ -50,9 +50,9 @@ There are several steps involved in the process machine learning
 
 Web Development & Deployment: Python, Streamlit framework has been used for web development and the site was hosted in Streamlit Cloud as well.
 
+#
 
-
-Visit The Web App: https://bhushan-zade-sms-spam-classifier-app-4pv856.streamlit.app/
+**`Visit The Web App:`** https://bhushan-zade-sms-spam-classifier-app-4pv856.streamlit.app/
 
 # Visit For Details:
 
