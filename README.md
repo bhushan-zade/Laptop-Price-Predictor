@@ -50,7 +50,7 @@ There are several steps involved in the process machine learning
 
 **`Web Development & Deployment:`** 
 
-Python, Streamlit framework has been used for web development and the site was hosted in Streamlit Cloud as well.
+For web development, I used the Python programming language and the Streamlit framework. Additionally, the website was hosted on Streamlit Cloud.
 
 #
 
