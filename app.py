@@ -44,37 +44,30 @@ with right_column:
 
 
  
-# making 2 cols left_column and right_column=                      3rd row
-left_column, right_column = st.columns(2)
+# making 3 cols left_column and right_column=                      3rd row
+left_column, middle_column, right_column = st.columns(3)
 with left_column:
     # Touchscreen
     touchscreen = st.selectbox('Touchscreen',['No','Yes'])
 
-with right_column:
+with middle_column:
     # IPS
     ips = st.selectbox('IPS',['No','Yes'])
-
-
-
-
-
-# making 2 cols left_column and right_column=                      4th row
-left_column, right_column = st.columns(2)
-with left_column:
+    
+with right_column:
     # screen size
     screen_size = st.number_input('Screen Size')
 
-with right_column:
-    # resolution
+
+
+
+# making 3 cols left_column and right_column=                      4th row
+left_column, middle_column, right_column = st.columns(3)
+with left_column:
+    # screen size
     resolution = st.selectbox('Screen Resolution',['1920x1080','1366x768','1600x900','3840x2160','3200x1800','2880x1800','2560x1600','2560x1440','2304x1440'])
 
-
-
-
-
-# making 2 cols left_column and right_column=                      5th row
-left_column, right_column = st.columns(2)
-with left_column:
+with middle_column:
     #cpu
     cpu = st.selectbox('CPU',df['Cpu brand'].unique())
 
@@ -86,8 +79,7 @@ with right_column:
 
 
 
-
-# making 3 cols left_column, middle_column and right_column=       6th row
+# making 3 cols left_column, middle_column and right_column=        5th row
 left_column, middle_column,  right_column = st.columns(3)
 with left_column:
     #ssd
