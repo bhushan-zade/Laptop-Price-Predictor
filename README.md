@@ -42,7 +42,7 @@ There are several steps involved in the process machine learning
 
 • Model Deployment
 
-# Performance Metrics used for this Project
+# **`Performance Metrics used for this Project`**
 
 1. R2 Score
 
